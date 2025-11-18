@@ -1,6 +1,6 @@
 # Fashion-MNIST Classification (PyTorch)
 
-This repository contains a PyTorch-based neural network that classifies images from the Fashion-MNIST dataset. The project includes dataset preparation, model training, evaluation, and visualization of predictions.
+This repository contains a PyTorch-based CNN that classifies images from the Fashion-MNIST dataset. The project includes dataset preparation, model training, evaluation, and visualization of predictions.
 
 This is my first machine learning project.
 
@@ -8,7 +8,7 @@ This is my first machine learning project.
 
 ## Project Overview
 
-The notebook trains a fully connected neural network on the Fashion-MNIST dataset, which consists of 28x28 grayscale images of clothing items. The model learns to classify images into one of ten categories.
+The notebook trains a CNN network on the Fashion-MNIST dataset, which consists of 28x28 grayscale images of clothing items. The model learns to classify images into one of ten categories.
 
 ---
 
@@ -18,8 +18,9 @@ The implemented model is a simple feed-forward neural network with the following
 
 - Input: 784-dimensional flattened image  
 - Hidden Layers:
-  - Linear layer + ReLU activation  
-  - Linear layer + ReLU activation  
+  - conv2d layer + ReLU activation  
+  - conv2d layer + ReLU activation  
+  - conv2d layer + ReLU activation  
 - Output Layer: Linear layer with 10 classes  
 - Loss Function: CrossEntropyLoss  
 - Optimizer: Adam  
